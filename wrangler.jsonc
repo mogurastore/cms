@@ -26,5 +26,13 @@
 		"crons": [
 			"* * * * *"
 		]
-	}
+	},
+	"workers_dev": false,
+	"preview_urls": false,
+	"routes": [
+		{
+			"pattern": "cms.mogura.dev",
+			"custom_domain": true
+		}
+	]
 }
