@@ -13,3 +13,7 @@ data.db-*
 !.env.example
 .dev.vars
 .dev.vars.*
+
+
+# APM dependencies
+apm_modules/
