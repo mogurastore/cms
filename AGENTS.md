@@ -112,3 +112,14 @@ CSS variables worth knowing (see `tokens.css` for the full list):
 - Don't use stock blog copy ("Welcome to my blog", "Stay tuned for more"). Write a real tagline that says what this blog is about.
 - Don't seed the home page with three identical placeholder posts. If you only have one real post, show one real post.
 - Comments are enabled on posts and rendered on the post detail page. Configure moderation before publishing the site, or remove `commentsEnabled` and the comments UI together.
+
+# バージョン管理
+
+- jjが利用可能な環境ではgitよりjjを優先的に使う
+
+# コミットメッセージ
+
+- Conventional Commitsに従う
+- prefixを必ずつける
+- prefixは小文字で書く
+- 日本語で記述する
