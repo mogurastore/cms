@@ -3,8 +3,8 @@ This is an EmDash site -- a CMS built on Astro with a full admin UI.
 ## Commands
 
 ```bash
-pnpm dev              # Start the Astro dev server
-npx emdash types      # Regenerate TypeScript types from a running site
+pnpm run dev              # Start the Astro dev server
+pnpm exec emdash types     # Regenerate TypeScript types from a running site
 ```
 
 The admin UI is at `http://localhost:4321/_emdash/admin`.
@@ -112,6 +112,12 @@ CSS variables worth knowing (see `tokens.css` for the full list):
 - Don't use stock blog copy ("Welcome to my blog", "Stay tuned for more"). Write a real tagline that says what this blog is about.
 - Don't seed the home page with three identical placeholder posts. If you only have one real post, show one real post.
 - Comments are enabled on posts and rendered on the post detail page. Configure moderation before publishing the site, or remove `commentsEnabled` and the comments UI together.
+
+# パッケージ管理
+
+- パッケージマネージャはpnpmを使う（npm/yarn/bunを使わない）
+- スクリプトの実行は `pnpm run <script>` を使う（`pnpm dev` のような省略形を使わない）
+- バイナリの直接実行は `pnpm exec <bin>` を使う（`npx` を使わない）
 
 # バージョン管理
 
