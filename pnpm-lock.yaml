@@ -13,22 +13,22 @@ importers:
         version: 14.4.4(@types/node@26.6.6)(astro@7.4.5(@types/node@26.6.6)(esbuild@0.28.2)(yaml@2.9.1))(esbuild@0.28.2)(workerd@1.20261103.1)(wrangler@4.157.0(@cloudflare/workers-types@5.20261103.1)(@types/node@26.6.6))(yaml@2.9.1)
       '@astrojs/react':
         specifier: ^7.0.0
-        version: 7.1.2(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(yaml@2.9.1)
+        version: 7.1.2(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(yaml@2.9.1)
       '@emdash-cms/cloudflare':
         specifier: ^1.3.0
-        version: 1.4.0(16212d07b4264b8547450d16f29ed7ec)
+        version: 1.4.0(417a382f7112f3d0bdd8e6918429638a)
       astro:
         specifier: ^7.3.2
         version: 7.4.5(@types/node@26.6.6)(esbuild@0.28.2)(yaml@2.9.1)
       emdash:
         specifier: ^1.3.0
-        version: 1.4.0(@astrojs/react@7.1.2(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(yaml@2.9.1))(@atcute/cbor@2.3.8(@atcute/cid@2.5.0))(@atcute/cid@2.5.0)(@atcute/identity@2.0.2(@atcute/lexicons@2.1.1)(typescript@6.0.3))(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(astro@7.4.5(@types/node@26.6.6)(esbuild@0.28.2)(yaml@2.9.1))(date-fns@4.4.0)(echarts@6.1.0)(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(typescript@6.0.3)
+        version: 1.4.0(@astrojs/react@7.1.2(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(yaml@2.9.1))(@atcute/cbor@2.3.8(@atcute/cid@2.5.0))(@atcute/cid@2.5.0)(@atcute/identity@2.0.2(@atcute/lexicons@2.1.1)(typescript@6.0.3))(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(astro@7.4.5(@types/node@26.6.6)(esbuild@0.28.2)(yaml@2.9.1))(date-fns@4.4.0)(echarts@6.1.0)(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@6.0.3)
       react:
         specifier: 19.3.1
         version: 19.3.1
       react-dom:
-        specifier: 19.2.4
-        version: 19.2.4(react@19.3.1)
+        specifier: 19.3.1
+        version: 19.3.1(react@19.3.1)
     devDependencies:
       '@astrojs/check':
         specifier: ^0.9.10
@@ -2961,9 +2961,6 @@ packages:
   prosemirror-tables@1.8.5:
     resolution: {integrity: sha512-V/0cDCsHKHe/tfWkeCmthNUcEp1IVO3p6vwN8XtwE9PZQLAZJigbw3QoraAdfJPir4NKJtNvOB8oYGKRl+t0Dw==}
 
-  prosemirror-transform@1.12.4:
-    resolution: {integrity: sha512-2/WuPum3pn+O/Vi2vzpi8210ICUe2kIPXdLYjQ09Pv5DtT5bcKWMJhAKPBwvpPjpp5iOYUVwVEr0gOM1BY1Mgw==}
-
   prosemirror-transform@1.12.5:
     resolution: {integrity: sha512-3EBXZBM4h3MKuWvs9sQ7IA0/v6jCqCZ4wC08PIvzY1VSQWDL90KEyfg5C0Ex52UJesf/QVogxvuBsZdKmLc3NQ==}
 
@@ -2995,10 +2992,10 @@ packages:
     peerDependencies:
       react: '>=16.8.0'
 
-  react-dom@19.2.4:
-    resolution: {integrity: sha512-AXJdLo8kgMbimY95O2aKQqsz2iWi9jMgKJhRBAxECE4IFxfcazB2LmzloIoibJI3C12IlY20+KFaLv+71bUJeQ==}
+  react-dom@19.3.1:
+    resolution: {integrity: sha512-Y0bARz53lhEC1NMCASs0/j+faB/zqt3R8hpvg1e8+61ZVJ4UL0UdC4cBbXfZMcIuhrfgeILTLe+ZeBCavQPtKQ==}
     peerDependencies:
-      react: ^19.2.4
+      react: ^19.3.1
 
   react-hotkeys-hook@5.3.3:
     resolution: {integrity: sha512-aswgyWUnE25hmhzHTfKDmKzsaSE5DJ4LKaU/o6rQSXkDd/1Bh9TfAFQbHkf6fLy11HvlYkp+cDDarGdhmCDhoQ==}
@@ -3078,8 +3075,8 @@ packages:
     resolution: {integrity: sha512-42tBVwLWnaQvW5zc4HbZrTuWccECCZfBi92FDuwtqxasH+JbPB3/FOKb1m222K42R4WxuxzzMsTswfzgtSu64Q==}
     engines: {node: '>=11.0.0'}
 
-  scheduler@0.27.0:
-    resolution: {integrity: sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==}
+  scheduler@0.28.0:
+    resolution: {integrity: sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw==}
 
   semver@7.8.6:
     resolution: {integrity: sha512-9lpSSU4Mly3mrtruwLs1eLK6+gzbzqeBFwRNjIjE+9LuDpWdYctrQlQ3ej1Ilgi7gknpsTRnPoLP8DpCHqHIJw==}
@@ -3848,7 +3845,7 @@ snapshots:
     dependencies:
       prismjs: 1.30.0
 
-  '@astrojs/react@7.1.2(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(yaml@2.9.1)':
+  '@astrojs/react@7.1.2(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(yaml@2.9.1)':
     dependencies:
       '@astrojs/internal-helpers': 0.13.0
       '@types/react': 19.3.0
@@ -3856,7 +3853,7 @@ snapshots:
       '@vitejs/plugin-react': 6.2.1(vite@8.3.6(@types/node@26.6.6)(esbuild@0.28.2)(yaml@2.9.1))
       devalue: 6.0.3
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
       ultrahtml: 1.7.0
       vite: 8.3.6(@types/node@26.6.6)(esbuild@0.28.2)(yaml@2.9.1)
     transitivePeerDependencies:
@@ -3999,26 +3996,26 @@ snapshots:
       '@babel/helper-string-parser': 7.29.13
       '@babel/helper-validator-identifier': 7.29.7
 
-  '@base-ui/react@1.9.0(@date-fns/tz@1.5.0)(@types/react@19.3.0)(date-fns@4.4.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)':
+  '@base-ui/react@1.9.0(@date-fns/tz@1.5.0)(@types/react@19.3.0)(date-fns@4.4.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@babel/runtime': 8.1.0
-      '@base-ui/utils': 0.5.0(@types/react@19.3.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
-      '@floating-ui/react-dom': 2.1.9(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@base-ui/utils': 0.5.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+      '@floating-ui/react-dom': 2.1.9(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@floating-ui/utils': 0.2.12
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
       use-sync-external-store: 1.7.0(react@19.3.1)
     optionalDependencies:
       '@date-fns/tz': 1.5.0
       '@types/react': 19.3.0
       date-fns: 4.4.0
 
-  '@base-ui/utils@0.5.0(@types/react@19.3.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)':
+  '@base-ui/utils@0.5.0(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@babel/runtime': 8.1.0
       '@floating-ui/utils': 0.2.12
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
       reselect: 5.3.0
       use-sync-external-store: 1.7.0(react@19.3.1)
     optionalDependencies:
@@ -4073,17 +4070,17 @@ snapshots:
 
   '@cloudflare/ai-search-snippet@0.0.42': {}
 
-  '@cloudflare/kumo@2.6.0(@date-fns/tz@1.5.0)(@phosphor-icons/react@2.1.10(react-dom@19.2.4(react@19.3.1))(react@19.3.1))(@types/react@19.3.0)(date-fns@4.4.0)(echarts@6.1.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(zod@4.5.4)':
+  '@cloudflare/kumo@2.6.0(@date-fns/tz@1.5.0)(@phosphor-icons/react@2.1.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(@types/react@19.3.0)(date-fns@4.4.0)(echarts@6.1.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(zod@4.5.4)':
     dependencies:
-      '@base-ui/react': 1.9.0(@date-fns/tz@1.5.0)(@types/react@19.3.0)(date-fns@4.4.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
-      '@phosphor-icons/react': 2.1.10(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@base-ui/react': 1.9.0(@date-fns/tz@1.5.0)(@types/react@19.3.0)(date-fns@4.4.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+      '@phosphor-icons/react': 2.1.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@shikijs/langs': 4.6.0
       '@shikijs/themes': 4.6.0
       clsx: 2.1.1
-      motion: 12.43.0(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      motion: 12.43.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       react: 19.3.1
       react-day-picker: 9.14.0(react@19.3.1)
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
       shiki: 4.6.0
       tailwind-merge: 3.7.0
     optionalDependencies:
@@ -4233,17 +4230,17 @@ snapshots:
       react: 19.3.1
       tslib: 2.9.1
 
-  '@dnd-kit/core@6.3.1(react-dom@19.2.4(react@19.3.1))(react@19.3.1)':
+  '@dnd-kit/core@6.3.1(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@dnd-kit/accessibility': 3.1.1(react@19.3.1)
       '@dnd-kit/utilities': 3.2.2(react@19.3.1)
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
       tslib: 2.9.1
 
-  '@dnd-kit/sortable@10.0.0(@dnd-kit/core@6.3.1(react-dom@19.2.4(react@19.3.1))(react@19.3.1))(react@19.3.1)':
+  '@dnd-kit/sortable@10.0.0(@dnd-kit/core@6.3.1(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(react@19.3.1)':
     dependencies:
-      '@dnd-kit/core': 6.3.1(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@dnd-kit/core': 6.3.1(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@dnd-kit/utilities': 3.2.2(react@19.3.1)
       react: 19.3.1
       tslib: 2.9.1
@@ -4253,10 +4250,10 @@ snapshots:
       react: 19.3.1
       tslib: 2.9.1
 
-  '@emdash-cms/admin@1.4.0(@atcute/cbor@2.3.8(@atcute/cid@2.5.0))(@atcute/cid@2.5.0)(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(echarts@6.1.0)(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(typescript@6.0.3)(zod@4.5.4)':
+  '@emdash-cms/admin@1.4.0(@atcute/cbor@2.3.8(@atcute/cid@2.5.0))(@atcute/cid@2.5.0)(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(echarts@6.1.0)(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@6.0.3)(zod@4.5.4)':
     dependencies:
       '@atcute/lexicons': 2.1.1
-      '@cloudflare/kumo': 2.6.0(@date-fns/tz@1.5.0)(@phosphor-icons/react@2.1.10(react-dom@19.2.4(react@19.3.1))(react@19.3.1))(@types/react@19.3.0)(date-fns@4.4.0)(echarts@6.1.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(zod@4.5.4)
+      '@cloudflare/kumo': 2.6.0(@date-fns/tz@1.5.0)(@phosphor-icons/react@2.1.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(@types/react@19.3.0)(date-fns@4.4.0)(echarts@6.1.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(zod@4.5.4)
       '@codemirror/autocomplete': 6.20.4
       '@codemirror/commands': 6.11.1
       '@codemirror/lang-css': 6.3.1
@@ -4265,20 +4262,20 @@ snapshots:
       '@codemirror/language': 6.13.1
       '@codemirror/state': 6.7.6
       '@codemirror/view': 6.43.15
-      '@dnd-kit/core': 6.3.1(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
-      '@dnd-kit/sortable': 10.0.0(@dnd-kit/core@6.3.1(react-dom@19.2.4(react@19.3.1))(react@19.3.1))(react@19.3.1)
+      '@dnd-kit/core': 6.3.1(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+      '@dnd-kit/sortable': 10.0.0(@dnd-kit/core@6.3.1(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(react@19.3.1)
       '@dnd-kit/utilities': 3.2.2(react@19.3.1)
-      '@emdash-cms/blocks': 1.4.0(@date-fns/tz@1.5.0)(@types/react@19.3.0)(date-fns@4.4.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(zod@4.5.4)
+      '@emdash-cms/blocks': 1.4.0(@date-fns/tz@1.5.0)(@types/react@19.3.0)(date-fns@4.4.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(zod@4.5.4)
       '@emdash-cms/plugin-types': 0.6.0
       '@emdash-cms/registry-client': 0.7.1(@atcute/cbor@2.3.8(@atcute/cid@2.5.0))(@atcute/cid@2.5.0)(typescript@6.0.3)
       '@emdash-cms/registry-lexicons': 0.7.0
-      '@floating-ui/react': 0.27.20(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@floating-ui/react': 0.27.20(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@lezer/highlight': 1.2.5
       '@lingui/core': 5.9.5
       '@lingui/react': 5.9.5(react@19.3.1)
-      '@phosphor-icons/react': 2.1.10(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@phosphor-icons/react': 2.1.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@tanstack/react-query': 5.90.21(react@19.3.1)
-      '@tanstack/react-router': 1.163.2(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@tanstack/react-router': 1.163.2(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@tiptap/core': 3.32.3(@tiptap/pm@3.32.3)
       '@tiptap/extension-character-count': 3.32.3(@tiptap/extensions@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))
       '@tiptap/extension-code': 3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))
@@ -4286,7 +4283,7 @@ snapshots:
       '@tiptap/extension-code-block-lowlight': 3.20.0(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/extension-code-block@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(highlight.js@11.11.2)(lowlight@3.3.0)
       '@tiptap/extension-collaboration': 3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33))(yjs@13.6.33)
       '@tiptap/extension-drag-handle': 3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/extension-collaboration@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33))(yjs@13.6.33))(@tiptap/extension-node-range@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33))
-      '@tiptap/extension-drag-handle-react': 3.32.3(@tiptap/extension-drag-handle@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/extension-collaboration@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33))(yjs@13.6.33))(@tiptap/extension-node-range@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33)))(@tiptap/pm@3.32.3)(@tiptap/react@3.32.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1))(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@tiptap/extension-drag-handle-react': 3.32.3(@tiptap/extension-drag-handle@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/extension-collaboration@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33))(yjs@13.6.33))(@tiptap/extension-node-range@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33)))(@tiptap/pm@3.32.3)(@tiptap/react@3.32.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@tiptap/extension-dropcursor': 3.32.3(@tiptap/extensions@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))
       '@tiptap/extension-focus': 3.32.3(@tiptap/extensions@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))
       '@tiptap/extension-link': 3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)
@@ -4303,7 +4300,7 @@ snapshots:
       '@tiptap/extension-typography': 3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))
       '@tiptap/extension-underline': 3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))
       '@tiptap/pm': 3.32.3
-      '@tiptap/react': 3.32.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@tiptap/react': 3.32.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@tiptap/starter-kit': 3.32.3
       '@tiptap/y-tiptap': 3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33)
       class-variance-authority: 0.7.1
@@ -4316,8 +4313,8 @@ snapshots:
       modern-tar: 0.7.7
       react: 19.3.1
       react-day-picker: 9.14.0(react@19.3.1)
-      react-dom: 19.2.4(react@19.3.1)
-      react-hotkeys-hook: 5.3.3(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
+      react-hotkeys-hook: 5.3.3(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       react-image-crop: 11.1.2(react@19.3.1)
       tailwind-merge: 3.7.0
       y-protocols: 1.0.7(yjs@13.6.33)
@@ -4352,14 +4349,14 @@ snapshots:
     optionalDependencies:
       kysely: 0.29.8
 
-  '@emdash-cms/blocks@1.4.0(@date-fns/tz@1.5.0)(@types/react@19.3.0)(date-fns@4.4.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(zod@4.5.4)':
+  '@emdash-cms/blocks@1.4.0(@date-fns/tz@1.5.0)(@types/react@19.3.0)(date-fns@4.4.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(zod@4.5.4)':
     dependencies:
-      '@cloudflare/kumo': 2.6.0(@date-fns/tz@1.5.0)(@phosphor-icons/react@2.1.10(react-dom@19.2.4(react@19.3.1))(react@19.3.1))(@types/react@19.3.0)(date-fns@4.4.0)(echarts@6.1.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(zod@4.5.4)
-      '@phosphor-icons/react': 2.1.10(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@cloudflare/kumo': 2.6.0(@date-fns/tz@1.5.0)(@phosphor-icons/react@2.1.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(@types/react@19.3.0)(date-fns@4.4.0)(echarts@6.1.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(zod@4.5.4)
+      '@phosphor-icons/react': 2.1.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       clsx: 2.1.1
       echarts: 6.1.0
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
       tailwind-merge: 3.7.0
     transitivePeerDependencies:
       - '@date-fns/tz'
@@ -4368,20 +4365,20 @@ snapshots:
       - date-fns
       - zod
 
-  '@emdash-cms/cloudflare@1.4.0(16212d07b4264b8547450d16f29ed7ec)':
+  '@emdash-cms/cloudflare@1.4.0(417a382f7112f3d0bdd8e6918429638a)':
     dependencies:
       '@astrojs/cloudflare': 14.4.4(@types/node@26.6.6)(astro@7.4.5(@types/node@26.6.6)(esbuild@0.28.2)(yaml@2.9.1))(esbuild@0.28.2)(workerd@1.20261103.1)(wrangler@4.157.0(@cloudflare/workers-types@5.20261103.1)(@types/node@26.6.6))(yaml@2.9.1)
       '@cloudflare/ai-search-snippet': 0.0.42
       '@cloudflare/workers-types': 5.20261103.1
       astro: 7.4.5(@types/node@26.6.6)(esbuild@0.28.2)(yaml@2.9.1)
-      emdash: 1.4.0(@astrojs/react@7.1.2(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(yaml@2.9.1))(@atcute/cbor@2.3.8(@atcute/cid@2.5.0))(@atcute/cid@2.5.0)(@atcute/identity@2.0.2(@atcute/lexicons@2.1.1)(typescript@6.0.3))(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(astro@7.4.5(@types/node@26.6.6)(esbuild@0.28.2)(yaml@2.9.1))(date-fns@4.4.0)(echarts@6.1.0)(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(typescript@6.0.3)
+      emdash: 1.4.0(@astrojs/react@7.1.2(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(yaml@2.9.1))(@atcute/cbor@2.3.8(@atcute/cid@2.5.0))(@atcute/cid@2.5.0)(@atcute/identity@2.0.2(@atcute/lexicons@2.1.1)(typescript@6.0.3))(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(astro@7.4.5(@types/node@26.6.6)(esbuild@0.28.2)(yaml@2.9.1))(date-fns@4.4.0)(echarts@6.1.0)(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@6.0.3)
       jose: 6.2.15
       kysely: 0.29.8
       kysely-d1: 0.4.0(kysely@0.29.8)
       ulidx: 2.4.1
     optionalDependencies:
-      '@cloudflare/kumo': 2.6.0(@date-fns/tz@1.5.0)(@phosphor-icons/react@2.1.10(react-dom@19.2.4(react@19.3.1))(react@19.3.1))(@types/react@19.3.0)(date-fns@4.4.0)(echarts@6.1.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(zod@4.5.4)
-      '@phosphor-icons/react': 2.1.10(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@cloudflare/kumo': 2.6.0(@date-fns/tz@1.5.0)(@phosphor-icons/react@2.1.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(@types/react@19.3.0)(date-fns@4.4.0)(echarts@6.1.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(zod@4.5.4)
+      '@phosphor-icons/react': 2.1.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       pg: 8.23.1
       react: 19.3.1
       wrangler: 4.157.0(@cloudflare/workers-types@5.20261103.1)(@types/node@26.6.6)
@@ -4611,18 +4608,18 @@ snapshots:
       '@floating-ui/core': 1.8.0
       '@floating-ui/utils': 0.2.12
 
-  '@floating-ui/react-dom@2.1.9(react-dom@19.2.4(react@19.3.1))(react@19.3.1)':
+  '@floating-ui/react-dom@2.1.9(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@floating-ui/dom': 1.8.0
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
 
-  '@floating-ui/react@0.27.20(react-dom@19.2.4(react@19.3.1))(react@19.3.1)':
+  '@floating-ui/react@0.27.20(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
-      '@floating-ui/react-dom': 2.1.9(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@floating-ui/react-dom': 2.1.9(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@floating-ui/utils': 0.2.12
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
       tabbable: 6.5.1
 
   '@floating-ui/utils@0.2.12': {}
@@ -4966,10 +4963,10 @@ snapshots:
 
   '@oxc-project/types@0.157.0': {}
 
-  '@phosphor-icons/react@2.1.10(react-dom@19.2.4(react@19.3.1))(react@19.3.1)':
+  '@phosphor-icons/react@2.1.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
 
   '@poppinss/colors@4.1.6':
     dependencies:
@@ -5151,22 +5148,22 @@ snapshots:
       '@tanstack/query-core': 5.90.20
       react: 19.3.1
 
-  '@tanstack/react-router@1.163.2(react-dom@19.2.4(react@19.3.1))(react@19.3.1)':
+  '@tanstack/react-router@1.163.2(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@tanstack/history': 1.161.4
-      '@tanstack/react-store': 0.9.3(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@tanstack/react-store': 0.9.3(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@tanstack/router-core': 1.163.2
       isbot: 5.2.2
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
       tiny-invariant: 1.3.3
       tiny-warning: 1.0.3
 
-  '@tanstack/react-store@0.9.3(react-dom@19.2.4(react@19.3.1))(react@19.3.1)':
+  '@tanstack/react-store@0.9.3(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@tanstack/store': 0.9.3
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
       use-sync-external-store: 1.7.0(react@19.3.1)
 
   '@tanstack/router-core@1.163.2':
@@ -5237,13 +5234,13 @@ snapshots:
     dependencies:
       '@tiptap/core': 3.32.3(@tiptap/pm@3.32.3)
 
-  '@tiptap/extension-drag-handle-react@3.32.3(@tiptap/extension-drag-handle@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/extension-collaboration@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33))(yjs@13.6.33))(@tiptap/extension-node-range@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33)))(@tiptap/pm@3.32.3)(@tiptap/react@3.32.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1))(react-dom@19.2.4(react@19.3.1))(react@19.3.1)':
+  '@tiptap/extension-drag-handle-react@3.32.3(@tiptap/extension-drag-handle@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/extension-collaboration@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33))(yjs@13.6.33))(@tiptap/extension-node-range@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33)))(@tiptap/pm@3.32.3)(@tiptap/react@3.32.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@tiptap/extension-drag-handle': 3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/extension-collaboration@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33))(yjs@13.6.33))(@tiptap/extension-node-range@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33))
       '@tiptap/pm': 3.32.3
-      '@tiptap/react': 3.32.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@tiptap/react': 3.32.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
 
   '@tiptap/extension-drag-handle@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/extension-collaboration@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33))(yjs@13.6.33))(@tiptap/extension-node-range@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@tiptap/y-tiptap@3.1.0(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(y-protocols@1.0.7(yjs@13.6.33))(yjs@13.6.33))':
     dependencies:
@@ -5395,10 +5392,10 @@ snapshots:
       prosemirror-schema-list: 1.6.0
       prosemirror-state: 1.4.4
       prosemirror-tables: 1.8.5
-      prosemirror-transform: 1.12.4
+      prosemirror-transform: 1.12.5
       prosemirror-view: 1.42.9
 
-  '@tiptap/react@3.32.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)':
+  '@tiptap/react@3.32.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       '@tiptap/core': 3.32.3(@tiptap/pm@3.32.3)
       '@tiptap/pm': 3.32.3
@@ -5407,7 +5404,7 @@ snapshots:
       '@types/use-sync-external-store': 0.0.6
       fast-equals: 5.4.5
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
       use-sync-external-store: 1.7.0(react@19.3.1)
     optionalDependencies:
       '@tiptap/extension-bubble-menu': 3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)
@@ -5937,26 +5934,26 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  emdash@1.4.0(@astrojs/react@7.1.2(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(yaml@2.9.1))(@atcute/cbor@2.3.8(@atcute/cid@2.5.0))(@atcute/cid@2.5.0)(@atcute/identity@2.0.2(@atcute/lexicons@2.1.1)(typescript@6.0.3))(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(astro@7.4.5(@types/node@26.6.6)(esbuild@0.28.2)(yaml@2.9.1))(date-fns@4.4.0)(echarts@6.1.0)(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(typescript@6.0.3):
+  emdash@1.4.0(@astrojs/react@7.1.2(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(yaml@2.9.1))(@atcute/cbor@2.3.8(@atcute/cid@2.5.0))(@atcute/cid@2.5.0)(@atcute/identity@2.0.2(@atcute/lexicons@2.1.1)(typescript@6.0.3))(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(astro@7.4.5(@types/node@26.6.6)(esbuild@0.28.2)(yaml@2.9.1))(date-fns@4.4.0)(echarts@6.1.0)(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@6.0.3):
     dependencies:
-      '@astrojs/react': 7.1.2(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(yaml@2.9.1)
+      '@astrojs/react': 7.1.2(@types/node@26.6.6)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(esbuild@0.28.2)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(yaml@2.9.1)
       '@atcute/client': 5.1.2(@atcute/lexicons@2.1.1)(typescript@6.0.3)
       '@atcute/identity-resolver': 2.0.3(@atcute/identity@2.0.2(@atcute/lexicons@2.1.1)(typescript@6.0.3))(@atcute/lexicons@2.1.1)(typescript@6.0.3)
       '@atcute/lexicons': 2.1.1
       '@atcute/multibase': 1.2.5
-      '@emdash-cms/admin': 1.4.0(@atcute/cbor@2.3.8(@atcute/cid@2.5.0))(@atcute/cid@2.5.0)(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(echarts@6.1.0)(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(typescript@6.0.3)(zod@4.5.4)
+      '@emdash-cms/admin': 1.4.0(@atcute/cbor@2.3.8(@atcute/cid@2.5.0))(@atcute/cid@2.5.0)(@date-fns/tz@1.5.0)(@floating-ui/dom@1.8.0)(@tiptap/extensions@3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3))(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(echarts@6.1.0)(prosemirror-model@1.25.12)(prosemirror-state@1.4.4)(prosemirror-view@1.42.9)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(typescript@6.0.3)(zod@4.5.4)
       '@emdash-cms/auth': 1.4.0(astro@7.4.5(@types/node@26.6.6)(esbuild@0.28.2)(yaml@2.9.1))(kysely@0.29.8)
-      '@emdash-cms/blocks': 1.4.0(@date-fns/tz@1.5.0)(@types/react@19.3.0)(date-fns@4.4.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)(zod@4.5.4)
+      '@emdash-cms/blocks': 1.4.0(@date-fns/tz@1.5.0)(@types/react@19.3.0)(date-fns@4.4.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(zod@4.5.4)
       '@emdash-cms/gutenberg-to-portable-text': 1.4.0
       '@emdash-cms/plugin-types': 0.6.0
       '@emdash-cms/registry-client': 0.7.1(@atcute/cbor@2.3.8(@atcute/cid@2.5.0))(@atcute/cid@2.5.0)(typescript@6.0.3)
       '@emdash-cms/registry-lexicons': 0.7.0
       '@emdash-cms/registry-verification': 0.3.4
-      '@floating-ui/react': 0.27.20(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@floating-ui/react': 0.27.20(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@modelcontextprotocol/sdk': 1.32.2(zod@4.5.4)
       '@oslojs/crypto': 1.0.1
       '@oslojs/encoding': 1.1.0
-      '@phosphor-icons/react': 2.1.10(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@phosphor-icons/react': 2.1.10(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@portabletext/toolkit': 5.0.2
       '@tiptap/core': 3.32.3(@tiptap/pm@3.32.3)
       '@tiptap/extension-code': 3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))
@@ -5973,7 +5970,7 @@ snapshots:
       '@tiptap/extension-typography': 3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))
       '@tiptap/extension-underline': 3.32.3(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))
       '@tiptap/pm': 3.32.3
-      '@tiptap/react': 3.32.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      '@tiptap/react': 3.32.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@tiptap/starter-kit': 3.32.3
       '@tiptap/suggestion': 3.32.3(@floating-ui/dom@1.8.0)(@tiptap/core@3.32.3(@tiptap/pm@3.32.3))(@tiptap/pm@3.32.3)
       '@unpic/placeholder': 0.1.2
@@ -5994,7 +5991,7 @@ snapshots:
       modern-tar: 0.7.7
       picocolors: 1.1.1
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
       sanitize-html: 2.18.1
       sax: 1.6.1
       smol-toml: 1.9.1
@@ -6201,14 +6198,14 @@ snapshots:
 
   forwarded@0.2.0: {}
 
-  framer-motion@12.43.0(react-dom@19.2.4(react@19.3.1))(react@19.3.1):
+  framer-motion@12.43.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1):
     dependencies:
       motion-dom: 12.43.0
       motion-utils: 12.39.0
       tslib: 2.9.1
     optionalDependencies:
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
 
   fresh@2.0.0: {}
 
@@ -6537,13 +6534,13 @@ snapshots:
 
   motion-utils@12.39.0: {}
 
-  motion@12.43.0(react-dom@19.2.4(react@19.3.1))(react@19.3.1):
+  motion@12.43.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1):
     dependencies:
-      framer-motion: 12.43.0(react-dom@19.2.4(react@19.3.1))(react@19.3.1)
+      framer-motion: 12.43.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       tslib: 2.9.1
     optionalDependencies:
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
 
   mrmime@2.0.1: {}
 
@@ -6731,18 +6728,18 @@ snapshots:
 
   prosemirror-changeset@2.4.6:
     dependencies:
-      prosemirror-transform: 1.12.4
+      prosemirror-transform: 1.12.5
 
   prosemirror-commands@1.7.2:
     dependencies:
       prosemirror-model: 1.25.12
       prosemirror-state: 1.4.4
-      prosemirror-transform: 1.12.4
+      prosemirror-transform: 1.12.5
 
   prosemirror-dropcursor@1.8.4:
     dependencies:
       prosemirror-state: 1.4.4
-      prosemirror-transform: 1.12.4
+      prosemirror-transform: 1.12.5
       prosemirror-view: 1.42.9
 
   prosemirror-gapcursor@1.4.1:
@@ -6755,14 +6752,14 @@ snapshots:
   prosemirror-history@1.5.1:
     dependencies:
       prosemirror-state: 1.4.4
-      prosemirror-transform: 1.12.4
+      prosemirror-transform: 1.12.5
       prosemirror-view: 1.42.9
       rope-sequence: 1.3.4
 
   prosemirror-inputrules@1.5.1:
     dependencies:
       prosemirror-state: 1.4.4
-      prosemirror-transform: 1.12.4
+      prosemirror-transform: 1.12.5
 
   prosemirror-keymap@1.2.3:
     dependencies:
@@ -6777,12 +6774,12 @@ snapshots:
     dependencies:
       prosemirror-model: 1.25.12
       prosemirror-state: 1.4.4
-      prosemirror-transform: 1.12.4
+      prosemirror-transform: 1.12.5
 
   prosemirror-state@1.4.4:
     dependencies:
       prosemirror-model: 1.25.12
-      prosemirror-transform: 1.12.4
+      prosemirror-transform: 1.12.5
       prosemirror-view: 1.42.9
 
   prosemirror-tables@1.8.5:
@@ -6790,12 +6787,8 @@ snapshots:
       prosemirror-keymap: 1.2.3
       prosemirror-model: 1.25.12
       prosemirror-state: 1.4.4
-      prosemirror-transform: 1.12.4
+      prosemirror-transform: 1.12.5
       prosemirror-view: 1.42.9
-
-  prosemirror-transform@1.12.4:
-    dependencies:
-      prosemirror-model: 1.25.12
 
   prosemirror-transform@1.12.5:
     dependencies:
@@ -6805,7 +6798,7 @@ snapshots:
     dependencies:
       prosemirror-model: 1.25.12
       prosemirror-state: 1.4.4
-      prosemirror-transform: 1.12.4
+      prosemirror-transform: 1.12.5
 
   proxy-addr@2.0.8:
     dependencies:
@@ -6836,15 +6829,15 @@ snapshots:
       date-fns-jalali: 4.1.0-0
       react: 19.3.1
 
-  react-dom@19.2.4(react@19.3.1):
+  react-dom@19.3.1(react@19.3.1):
     dependencies:
       react: 19.3.1
-      scheduler: 0.27.0
+      scheduler: 0.28.0
 
-  react-hotkeys-hook@5.3.3(react-dom@19.2.4(react@19.3.1))(react@19.3.1):
+  react-hotkeys-hook@5.3.3(react-dom@19.3.1(react@19.3.1))(react@19.3.1):
     dependencies:
       react: 19.3.1
-      react-dom: 19.2.4(react@19.3.1)
+      react-dom: 19.3.1(react@19.3.1)
 
   react-image-crop@11.1.2(react@19.3.1):
     dependencies:
@@ -6965,7 +6958,7 @@ snapshots:
 
   sax@1.6.1: {}
 
-  scheduler@0.27.0: {}
+  scheduler@0.28.0: {}
 
   semver@7.8.6: {}
 
