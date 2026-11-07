@@ -5,4 +5,5 @@ updates:
     schedule:
       interval: weekly
       day: saturday
+      time: "09:00"
       timezone: Asia/Tokyo
