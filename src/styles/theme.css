@@ -32,3 +32,28 @@
 
 :root {
 }
+
+/*
+ * 和文主体のため見出しの折り返しを pretty 決め打ちにする。
+ * Base.astro の @layer base (balance + 22ch) への上書き。
+ * unlayered のためこちらが優先される。
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: pretty;
+	line-break: strict;
+	word-break: auto-phrase;
+}
+
+.intro__title,
+.intro__subtitle {
+	max-width: 12em; /* 22ch と同等幅の和文基準 */
+}
+
+.intro__lead {
+	max-width: 33em; /* 60ch と同等幅の和文基準 */
+}
